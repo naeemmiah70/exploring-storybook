@@ -1,4 +1,4 @@
-import Tooltip from "../components/Tooltip/Tooltip";
+import Tooltip from "../components/storybookComponents/Tooltip/Tooltip";
 
 export default {
   title: "Component/Tooltip",

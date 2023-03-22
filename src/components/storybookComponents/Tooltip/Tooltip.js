@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./Tooltip.css";
-import Question from "../../resources/icons/question.png";
+import Question from "../../../resources/icons/question.png";
 
 const Tooltip = ({ label, color, backgroundColor }) => {
   const style = {

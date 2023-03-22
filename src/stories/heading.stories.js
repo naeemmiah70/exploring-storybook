@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "../components/Heading/Heading";
+import Heading from "../components/storybookComponents/Heading/Heading";
 
 export default {
   title: "Component/Heading",
