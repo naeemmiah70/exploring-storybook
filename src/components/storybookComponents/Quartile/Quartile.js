@@ -9,6 +9,7 @@ import {
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
+import PropTypes from "prop-types";
 
 ChartJS.register(
   CategoryScale,
@@ -31,6 +32,22 @@ export const options = {
   scales: {
     y: {
       suggestedMax: 100,
+      ticks: {
+        color: "#FFFFFF",
+      },
+      grid: {
+        color: "#141415",
+      },
+    },
+    x: {
+      ticks: {
+        color: "#FFFFFF",
+        fontWeight: 400,
+        fontSize: "8px",
+      },
+      grid: {
+        color: "#141415",
+      },
     },
   },
 };
@@ -60,6 +77,14 @@ const Quartile = ({
       />
     </div>
   );
+};
+
+Quartile.propTypes = {
+  labels:PropTypes.array,
+  quater:PropTypes.array,
+  barColors:PropTypes.array,
+  height: PropTypes.string,
+  width: PropTypes.string,
 };
 
 export default Quartile;

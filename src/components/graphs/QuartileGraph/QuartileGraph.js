@@ -15,9 +15,9 @@ const QuartileGrapH = () => {
   const barColors = ["#8DC0F1", "#5BA4EB", "#328DE6", "#1974CE"];
   return (
     <div>
-      <Card width="400px">
-        <div style={{ display: "flex" }}>
-          <Heading label="Total and Engaged"></Heading>
+      <Card width="452px">
+        <div style={{ display: "flex", marginBottom:"10px" }}>
+          <Heading label="Engagements in each Quartile"></Heading>
           <div style={{ marginLeft: "10px" }}>
             <Tooltip label="Tooltip text" />
           </div>
